@@ -38,6 +38,7 @@
         }
 
         button {
+            
             position: absolute;
             width: 150px;
             height: inherit;
@@ -68,6 +69,7 @@
         }
         .yes-btn {
             left: 20px;
+            
         }
     </style>
 </head>
@@ -94,6 +96,7 @@
         yesBtn.addEventListener('click', () => {
             question.innerHTML = 'I Love You Too :)', 'I Love ';
             img.src = 'https://media.tenor.com/7frkLaPiamwAAAAM/uwu-cute.gif';
+            yesBtn.style.display = 'none'; 
             
         });
 
